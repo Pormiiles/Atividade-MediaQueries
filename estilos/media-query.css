@@ -9,7 +9,43 @@ Grandes telas: acima de 1200px */
 /* Configuração de media screen de celulares já foram feitas */
 
 @media print {
+    body {
+        background-image: url(../imagens/back-tablet.jpg); /* Desnecessário */
+        border: 2px solid black;
+        border-radius: 5px;
+    }
 
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+        font-size: 1em;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+    
+    #phone {
+        display: none;
+    } 
+    
+    #printer {
+        display: block;
+    }
+    
+    #tablet {
+        display: none;
+    }
+    
+    #pc {
+        display: none;
+    } 
+    
+    #tv {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
