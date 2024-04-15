@@ -1,0 +1,112 @@
+/* Todas as demais telas */
+
+/* Typixal Device Breakpoints
+Celular: 600px até 768px
+Tablet: 768px até 992px
+PC: 992px até 1200px
+Grandes telas: acima de 1200px */
+
+/* Configuração de media screen de celulares já foram feitas */
+
+@media print {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+    
+    #phone {
+        display: none;
+    } 
+    
+    #printer {
+        display: none;
+    }
+    
+    #tablet {
+        display: block;
+    }
+    
+    #pc {
+        display: none;
+    } 
+    
+    #tv {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+    
+    #phone {
+        display: none;
+    } 
+    
+    #printer {
+        display: none;
+    }
+    
+    #tablet {
+        display: none;
+    }
+    
+    #pc {
+        display: block;
+    } 
+    
+    #tv {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+    
+    #phone {
+        display: none;
+    } 
+    
+    #printer {
+        display: none;
+    }
+    
+    #tablet {
+        display: none;
+    }
+    
+    #pc {
+        display: none;
+    } 
+    
+    #tv {
+        display: block;
+    }
+}
